@@ -1,0 +1,47 @@
+Admin@VietThuanTran MINGW32 /e/Cmdline-vietthuan/school/tools (master)
+$ ls
+command-line.txt
+
+Admin@VietThuanTran MINGW32 /e/Cmdline-vietthuan/school/tools (master)
+$ mv command-line.txt command-line-2.txt
+
+Admin@VietThuanTran MINGW32 /e/Cmdline-vietthuan/school/tools (master)
+$ ls
+command-line-2.txt
+
+Admin@VietThuanTran MINGW32 /e/Cmdline-vietthuan/school/tools (master)
+$ cd /e/Cmdline-vietthuan/school
+
+Admin@VietThuanTran MINGW32 /e/Cmdline-vietthuan/school (master)
+$ cd CS1
+
+Admin@VietThuanTran MINGW32 /e/Cmdline-vietthuan/school/CS1 (master)
+$ ls
+lecture1.txt
+
+Admin@VietThuanTran MINGW32 /e/Cmdline-vietthuan/school/CS1 (master)
+$ cd ../CS2/
+
+Admin@VietThuanTran MINGW32 /e/Cmdline-vietthuan/school/CS2 (master)
+$ mv java.txt ../CS1
+
+Admin@VietThuanTran MINGW32 /e/Cmdline-vietthuan/school/CS2 (master)
+$ cd ../CS1
+
+Admin@VietThuanTran MINGW32 /e/Cmdline-vietthuan/school/CS1 (master)
+$ ls
+java.txt  lecture1.txt
+
+Admin@VietThuanTran MINGW32 /e/Cmdline-vietthuan/school/CS1 (master)
+$ mv lecture1.txt ../CS2
+
+Admin@VietThuanTran MINGW32 /e/Cmdline-vietthuan/school/CS1 (master)
+$ ls
+java.txt
+
+Admin@VietThuanTran MINGW32 /e/Cmdline-vietthuan/school/CS1 (master)
+$ cd ../CS2
+
+Admin@VietThuanTran MINGW32 /e/Cmdline-vietthuan/school/CS2 (master)
+$ ls
+lecture1.txt  lecture2.txt
